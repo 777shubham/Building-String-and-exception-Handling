@@ -9,7 +9,7 @@ public class count_word{
      int count=1;
      for(int i=0;i<input.length();i++)
      {
-    	 if(input.charAt(i)==' ') 
+    	 if(input.charAt(i)==' '&& line.charAt(i+1) != ' ') 
     	 {
     		 count++;
     	 }
